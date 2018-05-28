@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-26T08:03:38+08:00</updated><id>http://localhost:4000/</id><title type="html">邮箱联系</title><subtitle>我发现到jekyll这个网站生成器，相当有趣。我一下子就感觉学会使用了的样子。虽然我现在只用到新建文件后，刷新主页中捕捉到新建文件，这是我以前似乎没有遇到的功能罢</subtitle><entry><title type="html">Prototype</title><link href="http://localhost:4000/2018/05/19/prototype.html" rel="alternate" type="text/html" title="Prototype" /><published>2018-05-19T00:00:00+08:00</published><updated>2018-05-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/19/prototype</id><content type="html" xml:base="http://localhost:4000/2018/05/19/prototype.html">&lt;h1 id=&quot;原型设计&quot;&gt;原型设计&lt;/h1&gt;
+
+&lt;p&gt;为了解决某种问题而产生的原型产品，但尚未用于工业实现的构思产物。&lt;/p&gt;
+
+&lt;h2 id=&quot;衣柜中的箱子化&quot;&gt;衣柜中的箱子化&lt;/h2&gt;
+&lt;p&gt;那些快递带来的一个个箱子，弃之浪费，过季节的衣服、闲置的东西就装入箱子中，可以装得满满的。突然看着一个个箱子发呆，回想起一件事情，即衣柜中堆在一起的衣服，随着衣服的增加，衣服像沙子堆般向外移出。影响到衣柜门正常使用（进行关闭操作时，一手压住衣服，一手关门），如果不想这么干，则减少衣服的存放量及压紧衣服了。（2018/5/19 星期六 下午 3:43:13 ）&lt;/p&gt;
+
+&lt;p&gt;注意观察，我见过的衣柜的门有两种方式，一种是左右方向推拉式，另一种左右方向拉式。能否存在一种结构组件是这样的，组件安装到衣柜的底部，从中可以拉出面般的形状，最终连接到衣柜的顶部。形成封闭的矩形体，这样存放衣服进入量能达到90%以上，然后可以轻松关上门。（2018/5/19 星期六 下午 11:23:22 ）&lt;/p&gt;
+
+&lt;p&gt;从中构思出两种基本的原型形态，一种是针对现有衣柜的（补充式）组件，另一种是基于组件而构成的衣柜。前者相对容易推广，需要让组件存在一定的弹性宽度以满足略有差异宽度的各种衣柜。后者则是全新的衣柜，制造成本与困难相对更难些。（2018/5/20 星期日 上午 12:42:54 ）&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;墙壁桌&quot;&gt;墙壁桌&lt;/h2&gt;</content><author><name></name></author><summary type="html">原型设计</summary></entry><entry><title type="html">Jekyll</title><link href="http://localhost:4000/2018/05/18/jekyll.html" rel="alternate" type="text/html" title="Jekyll" /><published>2018-05-18T00:00:00+08:00</published><updated>2018-05-18T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/18/jekyll</id><content type="html" xml:base="http://localhost:4000/2018/05/18/jekyll.html">&lt;h1 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h1&gt;
+
+&lt;p&gt;jekyll是一款网站自动器。使用ruby来实现的jekyll。在本文中将记录jekyll相关的（2018/5/19 星期六 上午 8:29:31 ）用法、网站、代码等&lt;/p&gt;
+
+&lt;h2 id=&quot;用法&quot;&gt;用法&lt;/h2&gt;
+
+&lt;h3 id=&quot;启动网站&quot;&gt;启动网站&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;` 网站所在的目录&amp;gt;jekyll server(serve  少一个r字母，也是可取的) 网站名称   
+
+C:\Users\Administrator\my-awesome-site&amp;gt;jekyll serve my-awesome-site     Configuration file: C:/Users/Administrator/my-awesome-site/_config.yml  
+        Source: C:/Users/Administrator/my-awesome-site  
+   Destination: C:/Users/Administrator/my-awesome-site/_site      Incremental build: disabled. Enable with --incremental     
+  Generating...     
+                done in 1.677 seconds.        Auto-regeneration: enabled for 'C:/Users/Administrator/my-awesome-site'    
+Server address: http://127.0.0.1:4000/     Server running... press ctrl-c to stop.   
+  Regenerating: 1 file(s) changed at 2018-05-19 08:40:06    
+                _posts/2018-05-18-jekyll.markdown   
+                ...done in 90.777192 seconds.` （2018/5/19 星期六 上午 8:52:31 ）
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Jekyll</summary></entry><entry><title type="html">Meat</title><link href="http://localhost:4000/2018/05/16/meat.html" rel="alternate" type="text/html" title="Meat" /><published>2018-05-16T00:00:00+08:00</published><updated>2018-05-16T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/16/meat</id><content type="html" xml:base="http://localhost:4000/2018/05/16/meat.html">&lt;h1 id=&quot;食物&quot;&gt;食物&lt;/h1&gt;
+
+&lt;p&gt;不知道用什么名字来表达本处的含意。我们会在此处来讲述自己制作食物的过程、心得，介绍一道道菜品。我记得三年级左右的夏季，有一天，我妈叫我帮她在明早煮粥，这是我要去厨房制作食物的开端。（2018/5/16 星期三 下午 3:20:52 ）&lt;/p&gt;
+
+&lt;p&gt;食材+调料+作法=一道食物。这是长达四个多月与厨房接触产生的效果，天天看着厨师做菜得到的心得。（2018/5/17 星期四 上午 11:19:21 ）&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;面粉类&quot;&gt;面粉类&lt;/h2&gt;
+
+&lt;p&gt;妹子想要吃面包，但是基于经济限制，采用自己制作的方式来制作面包，之前只做过水饺、寿司，水饺中的皮是购买的。以及回想小时候看过妈妈做面包的过程。以一种试试的心态进行做面包的过程，在超市购买了一包1KG的面粉，拿一个装汤的，倒入一堆面粉、一碗水、加鸡蛋、白糖、碱面、胡椒粉等，用手挤着面粉，内心却想着这会产生什么味道的面包吖。面粉慢慢地的变成一团水泥似的。这是第一次是自己自主整个制作面包的过程，就揉面包的这一部分操作不太确定如何处理比较好。即主要是水与面粉的比例是多少呢！后来经常多次的揉面包才发现，水没加够就还存在面粉，水加多就出现泥状物，这要是包入肉馅的话，如何成面包呢！真是的。（2018/5/17 星期四 下午 5:39:42 ）&lt;/p&gt;
+
+&lt;p&gt;工具的作用。购买的厨具是根据日常会制作什么菜肴而定的。因此，在购买了面粉时，厨房只有电高压锅、电磁炉等两种产生热量的机器，及煮米饭的锅、煲汤的锅、炒锅等三种锅。加热机器与锅可以制作菜的作法，主要实现了炒、煮、煲三种作法。面包搞热，常用两种操作是蒸、烤。蒸笼、烤箱是专门提供这两种操作，而是厨房内没有吖。也不打算购买，就先用电高压锅、电磁炉来试试看，用一个不锈钢架放入电高压锅内，加入水，装有生面包的盘。&lt;/p&gt;
+
+&lt;p&gt;在女朋友（此时是一个大一的妹子2018/5/16 星期三 下午 4:50:50 ）购买&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;炒饭类&quot;&gt;炒饭类&lt;/h2&gt;
+
+&lt;p&gt;饭、鸡蛋、酱油是小时候的炒饭三大组合。现在(2018/5/18 星期五 上午 8:04:41 前后)炒饭过程中，发现若干个问题，值得讲述，以便炒饭参考。&lt;/p&gt;
+
+&lt;p&gt;鸡蛋在米饭中的作用。熟米饭会有一种特性，即粘性。用来直接吃的话是一种不错的效果，而用来当炒饭的原材料却是一个不佳的特性。在拌米饭时米粒间容易互粘，甚至出现大饭团，油、调料难以进入饭团内及饭团受热不均匀。炒是一个短暂、快速加热的操作，饭团导热性差不适用于炒的操作。鸡蛋的作用就此产生，即阻止米饭形成饭团，让米粒间失去粘性像沙子般相处。（2018/5/18 星期五 上午 10:39:46 ）&lt;/p&gt;
+
+&lt;p&gt;酱油，抱歉。现在好少使用酱油于&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;蔬菜&quot;&gt;蔬菜&lt;/h2&gt;
+&lt;p&gt;曾几何时，蔬菜的水煮法、油炒法，让鄙人不再愿意吃蔬菜了，它会分别出现一股土泥味，易焦黑。（2018/5/18 星期五 下午 5:27:39 ）&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;寿司&quot;&gt;寿司&lt;/h2&gt;
+
+&lt;p&gt;饭的质量需要选购饱满、颗粒大的，没有明显黑点、坏点，形状偏细长的颗粒不建立选购。其次，紫菜片选购标注寿司字样的紫菜。饭团中的配料,一般有肉丝、火腿、酸萝卜、番茄酱、肉类之类，配料的形状以长条状、面状为宜。&lt;/p&gt;
+
+&lt;p&gt;桌面上先放一个竹子面，放上一层紫菜片，抹一层饭团，抹一层肉松，条状的火腿与竹子是平行及摆放位置是竹子的边沿。其它条形的食材如此类推。从含有众多食材的一边开始卷，卷的过程需要适当用力压，以便形成圆柱及方便切成一块块小圆柱。（2018/5/20 星期日 下午 4:46:51 ）&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;甜品类&quot;&gt;甜品类&lt;/h2&gt;
+
+&lt;p&gt;以潮汕、海陆丰文化下的甜汤为本主题，其次是西方的甜品为辅。&lt;/p&gt;
+
+&lt;p&gt;失败，带来的是食物浪费，口味不佳，更是让人不悦。来谈谈一个失败例子，米饭、薏米、菊花、木耳、白糖、生粉，加一锅的水，组成一锅甜汤。用电磁炉煮好后的效果，食材吸水量大，锅中的水明显要没有了。一道及格的甜汤需要以下若干判断标准，水分需要接近甜汤总体积的一半左右，汤水需要有一定粘稠性(若是太稀就跟水一般，跟食料会无法融合在一起)。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;因此，考虑好哪些食料不能混在一起做甜汤，却把握住做成的含汤量能否达50%左右。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name></name></author><summary type="html">食物</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/05/12/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-05-12T14:34:37+08:00</published><updated>2018-05-12T14:34:37+08:00</updated><id>http://localhost:4000/jekyll/update/2018/05/12/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/05/12/welcome-to-jekyll.html">&lt;p&gt;借用他人的力量，构建风马一族的网站，实在爽吖&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">借用他人的力量，构建风马一族的网站，实在爽吖</summary></entry><entry><title type="html">Dimension Space</title><link href="http://localhost:4000/2018/05/12/Dimension-Space.html" rel="alternate" type="text/html" title="Dimension Space" /><published>2018-05-12T00:00:00+08:00</published><updated>2018-05-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/12/Dimension-Space</id><content type="html" xml:base="http://localhost:4000/2018/05/12/Dimension-Space.html">&lt;h1 id=&quot;维度空间&quot;&gt;维度空间&lt;/h1&gt;
+
+&lt;p&gt;维度空间是一个有趣的空间概念&lt;/p&gt;
+
+&lt;h2 id=&quot;什么是维度空间&quot;&gt;什么是维度空间？&lt;/h2&gt;
+&lt;p&gt;什么是维度空间?空间是用来容纳物体的容器，物体在空间中具有体积大小、形态各异的两种特征。维度是指物体的体态描述所需的参数数量。为了方便了解，可以使用数学的长、宽、高等来理解维度。&lt;/p&gt;
+
+&lt;p&gt;维度空间为什么会被提出？在研究两位置间， 寻找最短路径。通常两个点可以画出若干条线，这里隐藏潜在的条件，即两点同时处在面、空间之中。当两个位置只存在一条线，且两个位置无法同时处在另条线上。为了把上面语句进行简化、或获取不知道的内容。维度空间的提出自然而然。&lt;/p&gt;
+
+&lt;p&gt;不知在初中还是什么时候。知道三维空间的说法。当时未有深究。在近两年的探究及网络上知识的传播。维度空间逐渐被深化，并现有的科学探究有所怀疑。其中之一，即四维空间被认为三维空间与时间的结合。实际是个有问题的观点。想反驳它的是，三维空间存在时间，四维空间同样存在时间。&lt;/p&gt;
+
+&lt;p&gt;物体而言，空间描述物体的体积大小及各形，时间描述物体的体积及各形的变化。空间与时间不属于同类。（2018/5/25 星期五 下午 3:44:42 ）&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;维度空间的类型&quot;&gt;维度空间的类型&lt;/h2&gt;
+&lt;p&gt;目前所知道的维度空间的类型，有零维空间、一维空间、二维空间、三维空间。目前猜测存在四维空间存在的可能。&lt;/p&gt;
+
+&lt;p&gt;维度空间的类型划分、方法是数学几何的知识来处理。在一个空间中，独立物体需要至少n个参数来描述清物体的体积。决定物体所处的空间为n维空间。n是大于等于零的整数。使用维度空间坐标系来区分物体所处的维度空间就更方便了！&lt;/p&gt;
+
+&lt;p&gt;注意前面使用“至少”这个词汇，这是相当的要点，不可忽视。当物体处于原点O,则物体所处的维度空间是零维空间。零维空间是非零维空间的空间组成基础。物体处于x轴、y轴、z轴、、、n轴等，这里只给三个轴可选，而实际上是不限制轴的选择，唯一限制的是物体在同一时刻，只能处于其中一个轴，物体在轴上只有长度概念，即物体有多长、有多短，物体所处的维度空间，称为一维空间。&lt;/p&gt;
+
+&lt;p&gt;当物体处于任意两个轴所形成的范围上，则物体所在的空间，称为二维空间。数学几何来描述二维空间。数学几何来描述零维空间的物体，&lt;/p&gt;</content><author><name></name></author><summary type="html">维度空间</summary></entry></feed>
